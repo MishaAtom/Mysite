@@ -1,0 +1,371 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #131313, #565756, #a3a3a3);
+  color: #ffffff;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+header {
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(141, 140, 140, 0.7)), url('img/gradi');
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  font-family: 'Cinzel Decorative', cursive;
+  flex-direction: column;
+}
+.headerbutton{
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  bottom: 150px;
+}
+header button{
+  margin: 10px;
+  background-color: #8a8282;
+  color: #f7f7f7;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #979999, 0 0 20px #3c504e;
+  cursor: pointer;
+}
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 25px;
+  padding-bottom: 100px;
+  margin: 25px;
+  max-width: 1200px;  
+  margin: 0 auto;
+  transition-duration: 0.5s;
+}
+
+.img_pudge {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+}
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+  max-width: 800px;
+}
+
+.detailed-bio {
+  background: #c0c0c0;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #ff6b6b;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+/*для смартфону */
+@media (max-width: 768px) {
+  .hero-section {
+      flex-direction: column;
+  }
+}
+#toggleList {
+  display: none;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.toggle-list {
+  margin: 15px;
+  background-color: #6c6d6b;
+  color: #f7f7f7;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #92e4dc, 0 0 20px #3b746e;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+button:hover {
+  transform: scale(1.05);
+}
+.img_cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 100px;
+  border-radius: 50px;
+  background: #000000;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.img_cont img{
+  transition-duration: 1s ;
+margin: 45px;
+border: #22969e 3px solid;
+}
+.img2:hover{
+box-shadow: 10px 10px 10px 10px rgb(255, 17, 0) ;
+}
+.img1:hover{
+box-shadow: 10px 10px 10px 10px rgb(255, 230, 1) ;
+}
+.img3:hover{
+ box-shadow: 10px 10px 10px 10px rgb(9, 255, 0) ;
+}
+.img4:hover{
+   box-shadow: 10px 10px 10px 10px rgb(4, 253, 253) ;
+}
+.img5:hover{
+  box-shadow: 10px 10px 10px 10px rgb(25, 0, 255) ;
+}
+.img6:hover{
+  box-shadow: 10px 10px 10px 10px rgb(255, 0, 255) ;
+}
+.img6{
+  min-width: 600px;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+  margin: 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background: linear-gradient(to right, #292826, #2c3126, #0e181b);
+}
+blockquote{
+  font-size: 25px;
+}
+.bio{
+  font-style: italic  ;
+}
+.ability_cont{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+  justify-content: center;
+  text-shadow: black 2px 2px 2px ;
+}
+.ability_cont img{
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.hook{
+  min-width: 600px;
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid black;
+  border-radius: 30px;
+  background: rgb(102, 99, 99);
+}
+.rot{
+  min-width: 600px;
+  margin: 30px;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 30px;
+  background-color: rgb(102, 99, 99);
+}
+.flesh_heap{
+  min-width: 600px;
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid black;
+  border-radius: 30px;
+  background-color: rgb(102, 99, 99);
+}
+.dismember{
+  min-width: 600px;
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid black;
+  border-radius: 30px;
+  background-color: rgb(102, 99, 99);
+}
+.allability{
+  margin: 50px;
+  background: linear-gradient(to right, #6b6962, #353b2d, #2e4950);
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px 10px black;
+  padding: 10px;
+}
+
+.videotext{
+  border: 1px solid rgb(197, 209, 129);
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.hero-image{
+ position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fraza{
+  border: 1px solid rgb(114, 114, 114);
+  border-radius: 10px;
+  background: #242424;
+  padding: 10px;
+  max-width: 300px;
+}
+.fraza-zagolovok{
+text-shadow: black 2px 2px 2px ;
+}
+ #preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('../img/blackbg.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease;
+    }
+
+    #preloader img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    #main-content {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.5s ease;
+    }
+
+    body.loaded #main-content {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    body.lock-scroll {
+      overflow: hidden;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    section {
+      padding: 100px;
+      border-bottom: none
+    }
+@media (max-width: 1024px) {
+  .headerbutton {
+    flex-direction: column;
+    align-items: flex-end;
+    bottom: 0;
+    margin-top: 10px;
+  }
+
+  .img6,
+  .hook,
+  .rot,
+  .flesh_heap,
+  .dismember {
+    min-width: 100%;
+  }
+
+  .ability_cont {
+    grid-template-columns: 1fr; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .img_cont {
+    margin: 30px;
+    border-radius: 20px;
+  }
+
+  .img_cont img {
+    width: 80%;
+    margin: 15px;
+  }
+
+  .hook,
+  .rot,
+  .flesh_heap,
+  .dismember {
+    padding: 15px;
+    margin: 15px;
+    min-width: unset;
+  }
+
+  .fraza {
+    max-width: 90%;
+  }
+
+  .video {
+    margin: 15px;
+    padding: 10px;
+  }
+}
+@media (max-width: 360px){
+.hook,
+.rot,
+.flesh_heap,
+.dismember,
+.img6 {
+  width: 100%;
+  max-width: 600px;
+}
+.img_cont img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+}
